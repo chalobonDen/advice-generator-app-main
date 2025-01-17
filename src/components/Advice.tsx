@@ -39,7 +39,7 @@ const Advice = () => {
     <div>
       <Card className={cn('bg-gray-550 w-full p-5 md:w-[500px]', 'relative')}>
         <div className={cn('text-green-250 text-center text-xs font-bold')}>ADVICE #{advices?.slip?.id}</div>
-        <div className={cn('text-gray-150 py-5')}>{advices?.slip?.advice}</div>
+        <div className={cn('text-blue-150 py-5 text-center text-2xl font-bold')}>{`"${advices?.slip?.advice}"`}</div>
         <div className={cn('flex items-center justify-between space-x-3 pb-10')}>
           <div className={cn('border-gray-150 w-full border-b opacity-25')} />
           <div className={cn('flex space-x-2')}>
